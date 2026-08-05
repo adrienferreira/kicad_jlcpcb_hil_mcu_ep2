@@ -510,13 +510,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -712,6 +713,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -767,16 +774,16 @@
       {
         "filename": "MCU.kicad_sch",
         "name": "MCU",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "24779181-b0fb-46c6-a256-29c9f6b84764"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R89,J1-2,#PWR10,#PWR63-67,#PWR74-75,#PWR110,U3",
     "variants": []
   },
   "sheets": [
     [
       "24779181-b0fb-46c6-a256-29c9f6b84764",
-      "Root"
+      "MCU"
     ],
     [
       "3f3d1f73-8349-4839-8a7f-159ce243cc15",
