@@ -777,7 +777,7 @@
         "uuid": "24779181-b0fb-46c6-a256-29c9f6b84764"
       }
     ],
-    "used_designators": "L1,#PWR64,#PWR74-75,#PWR83,#PWR85,#PWR88,#PWR95-96,#PWR104,#PWR106,#PWR109-111,#PWR113,#PWR116-117,U3,R89-90,R95-98,C3-6,C16,C35-37",
+    "used_designators": "H7,#PWR118",
     "variants": []
   },
   "sheets": [
@@ -800,10 +800,6 @@
     [
       "58ac6281-91b3-42ae-bca9-4b693e8fb2a4",
       "GP_SUB3"
-    ],
-    [
-      "3dc247c8-4b7a-467c-956c-af0f34631f3f",
-      "Power"
     ]
   ],
   "text_variables": {},
