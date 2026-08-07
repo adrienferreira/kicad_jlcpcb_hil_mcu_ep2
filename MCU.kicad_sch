@@ -6496,16 +6496,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 209.55) (xy 41.275 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05bc08b9-0cc3-4d67-acf7-6f884bd533d4")
-	)
-	(wire
-		(pts
 			(xy 340.36 187.96) (xy 340.36 193.04)
 		)
 		(stroke
@@ -7323,26 +7313,6 @@
 			(type default)
 		)
 		(uuid "3681221a-a2b8-4923-994b-f094ebeabf6f")
-	)
-	(wire
-		(pts
-			(xy 266.7 209.55) (xy 273.05 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3758531c-4e86-4cf1-9da6-b63bb6b2f186")
-	)
-	(wire
-		(pts
-			(xy 247.65 262.89) (xy 254 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37918228-fecd-436e-aa02-7fbe52687b99")
 	)
 	(wire
 		(pts
@@ -9836,16 +9806,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 209.55) (xy 144.78 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e493b123-2a4e-446c-92a1-44250bead122")
-	)
-	(wire
-		(pts
 			(xy 203.2 209.55) (xy 234.95 209.55)
 		)
 		(stroke
@@ -10966,30 +10926,6 @@
 			)
 		)
 	)
-	(global_label "SDMOS"
-		(shape input)
-		(at 273.05 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3cc3dc6a-ea00-40a2-b19c-dd496f632693")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.6033 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "A0V"
 		(shape input)
 		(at 165.1 53.34 180)
@@ -12070,30 +12006,6 @@
 			)
 		)
 	)
-	(global_label "SDMOS"
-		(shape input)
-		(at 33.02 209.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6ce81a9-3890-4c78-bd19-4061c5beab85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.5639 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "A0V"
 		(shape input)
 		(at 195.58 55.88 0)
@@ -12227,30 +12139,6 @@
 		(uuid "b24563b5-e1aa-46d7-9dd7-ee7c969af43b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.3027 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SDMOS"
-		(shape input)
-		(at 254 262.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b48f51ff-d73e-4f89-b3e7-c75cd188e0cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.5533 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12403,30 +12291,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SDMOS"
-		(shape input)
-		(at 151.13 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd033633-5096-4fb4-b32c-1058130321b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6833 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -19221,16 +19085,6 @@
 				(justify right)
 			)
 		)
-		(pin "SDMOS" input
-			(at 266.7 209.55 0)
-			(uuid "1f24d7d1-d5d6-4829-a739-33874d116357")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MOS_TRIP" input
 			(at 266.7 213.36 0)
 			(uuid "3cc12854-b098-4b29-961c-73eddefc9e2d")
@@ -19410,16 +19264,6 @@
 		(pin "SPI_NCS" input
 			(at 41.275 205.74 180)
 			(uuid "2db96ead-b633-4ac6-9dee-7006845d7a18")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDMOS" input
-			(at 41.275 209.55 180)
-			(uuid "557faca4-d1ec-4410-8c50-a882ec918d47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19613,16 +19457,6 @@
 				(justify right)
 			)
 		)
-		(pin "SDMOS" input
-			(at 247.65 262.89 0)
-			(uuid "3fefa81c-a374-4c03-bd45-614729efaf0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MOS_TRIP" input
 			(at 247.65 266.7 0)
 			(uuid "d243a29b-3d5e-4a47-a82f-c4f07c0871e9")
@@ -19802,16 +19636,6 @@
 		(pin "SPI_NCS" input
 			(at 144.78 205.74 0)
 			(uuid "4194a2ab-bcd2-4bc4-8b7c-c6288b9c4d43")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDMOS" input
-			(at 144.78 209.55 0)
-			(uuid "b80f0fdb-46cb-4629-a0d9-0a3766b212e5")
 			(effects
 				(font
 					(size 1.27 1.27)
